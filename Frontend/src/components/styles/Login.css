@@ -1,0 +1,53 @@
+.login-container {
+    display: inline-block;
+    background: #FFFFFF;
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  input[type="text1"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .password-input {
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .btn {
+    margin-top: 1rem;
+    width: calc(100% - 20px);
+    height: 40px;
+    border-radius: 20px;
+    background: #B58DED;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(181, 141, 237, 0.7), 0 6px 20px 0 rgba(181, 141, 237, 0.9);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #9a72d1;
+  }
+  
+  .login-container h2 {
+    font-family: 'Segoe UI', bold;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  

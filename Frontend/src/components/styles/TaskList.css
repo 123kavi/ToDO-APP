@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, hwb(200 60% 3%), #eaa7d8);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .task-list-container {
+    margin: 2rem auto;
+    width: 80%;
+    text-align: left;
+  }
+  
+  h2 {
+    font-family: 'Segoe UI', bold;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #B58DED;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(181, 141, 237, 0.7), 0 6px 20px 0 rgba(181, 141, 237, 0.9);
+  }
+  
+  button:hover {
+    background-color: #9a72d1;
+  }
+  
+  .search-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  input[type="date"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  input[type="password"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    width: 250px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .task-table th, .task-table td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #B58DED;
+    color: #fff;
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .task-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .task-table td button {
+    margin: 9;
+    padding: 0.3rem 0.5rem;
+    font-size: 14px;
+  }
+  
